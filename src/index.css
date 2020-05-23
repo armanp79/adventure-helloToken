@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(128,71,128);
+  }
+
+  .wave { 
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 20px;
+  } 
+  .logo {
+    display: block;
+    position: absolute;
+    width: 10%; 
+    height: auto;
+    right: 0px;
+    bottom: 0px;
+  } 
+          
+  h1, h2{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    text-align: center;
+    font-size: 35px;
+  } 
+
+
+  button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: bottom;
+    position: absolute;
+    right: 45%;
+    font-size: 15px;
+    border: 1px solid #999;
+    background-color: rgb(223, 193, 112);
+    color: white;
+    cursor: pointer;
+    font-weight: 400;
+    background-image: linear-gradient(rgb(216, 171, 48), rgb(221, 203, 153));
+    border-radius: 20px;
+    padding: 25px 30px;
+  }
+
+  button:hover {
+    background-image: linear-gradient(rgb(216, 177, 70), rgb(221, 208, 173));
+  }
+  
